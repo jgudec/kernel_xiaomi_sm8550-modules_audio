@@ -57,7 +57,7 @@ LOCAL_MODULE_KBUILD_NAME  := dsp/q6_notifier_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -66,7 +66,7 @@ LOCAL_MODULE_KBUILD_NAME  := dsp/spf_core_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 
 include $(CLEAR_VARS)
@@ -76,7 +76,7 @@ LOCAL_MODULE_KBUILD_NAME  := dsp/audpkt_ion_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -85,7 +85,7 @@ LOCAL_MODULE_KBUILD_NAME  := ipc/gpr_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -94,7 +94,7 @@ LOCAL_MODULE_KBUILD_NAME  := ipc/audio_pkt_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -103,7 +103,7 @@ LOCAL_MODULE_KBUILD_NAME  := dsp/q6_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -112,7 +112,7 @@ LOCAL_MODULE_KBUILD_NAME  := dsp/adsp_loader_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 
 ########################### ipc  ################################
 include $(CLEAR_VARS)
@@ -122,7 +122,7 @@ LOCAL_MODULE_KBUILD_NAME  := dsp/audio_prm_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -131,7 +131,7 @@ LOCAL_MODULE_KBUILD_NAME  := dsp/q6_pdr_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 
 ############################ soc ###############################
 include $(CLEAR_VARS)
@@ -141,7 +141,7 @@ LOCAL_MODULE_KBUILD_NAME  := soc/pinctrl_lpi_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -150,7 +150,7 @@ LOCAL_MODULE_KBUILD_NAME  := soc/swr_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -159,7 +159,7 @@ LOCAL_MODULE_KBUILD_NAME  := soc/swr_ctrl_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -168,7 +168,7 @@ LOCAL_MODULE_KBUILD_NAME  := soc/snd_event_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################  ASOC CODEC ################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -177,7 +177,7 @@ LOCAL_MODULE_KBUILD_NAME  := asoc/codecs/wcd_core_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -186,7 +186,7 @@ LOCAL_MODULE_KBUILD_NAME  := asoc/codecs/mbhc_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -195,7 +195,7 @@ LOCAL_MODULE_KBUILD_NAME  := asoc/codecs/swr_dmic_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -204,7 +204,7 @@ LOCAL_MODULE_KBUILD_NAME  := asoc/codecs/wcd9xxx_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -213,7 +213,7 @@ LOCAL_MODULE_KBUILD_NAME  := asoc/codecs/swr_haptics_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -222,7 +222,7 @@ LOCAL_MODULE_KBUILD_NAME  := asoc/codecs/stub_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ########################### ASOC MACHINE ################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -231,7 +231,7 @@ LOCAL_MODULE_KBUILD_NAME  := asoc/machine_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ########################### LPASS-CDC CODEC  ###########################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -240,7 +240,7 @@ LOCAL_MODULE_KBUILD_NAME  := asoc/codecs/lpass-cdc/lpass_cdc_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -249,7 +249,7 @@ LOCAL_MODULE_KBUILD_NAME  := asoc/codecs/lpass-cdc/lpass_cdc_wsa2_macro_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -258,7 +258,7 @@ LOCAL_MODULE_KBUILD_NAME  := asoc/codecs/lpass-cdc/lpass_cdc_wsa_macro_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -267,7 +267,7 @@ LOCAL_MODULE_KBUILD_NAME  := asoc/codecs/lpass-cdc/lpass_cdc_va_macro_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -276,7 +276,7 @@ LOCAL_MODULE_KBUILD_NAME  := asoc/codecs/lpass-cdc/lpass_cdc_tx_macro_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -285,7 +285,7 @@ LOCAL_MODULE_KBUILD_NAME  := asoc/codecs/lpass-cdc/lpass_cdc_rx_macro_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 
 ########################### WSA884x CODEC  ###########################
 include $(CLEAR_VARS)
@@ -295,7 +295,7 @@ LOCAL_MODULE_KBUILD_NAME  := asoc/codecs/wsa884x/wsa884x_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 
 ########################### WSA883x CODEC  ###########################
 include $(CLEAR_VARS)
@@ -305,7 +305,7 @@ LOCAL_MODULE_KBUILD_NAME  := asoc/codecs/wsa883x/wsa883x_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 
 ########################### WCD938x CODEC  ################################
 include $(CLEAR_VARS)
@@ -315,7 +315,7 @@ LOCAL_MODULE_KBUILD_NAME  := asoc/codecs/wcd938x/wcd938x_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -324,7 +324,7 @@ LOCAL_MODULE_KBUILD_NAME  := asoc/codecs/wcd938x/wcd938x_slave_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES           := $(AUDIO_SRC_FILES)
@@ -335,7 +335,7 @@ LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
 LOCAL_REQUIRED_MODULES    := msm-ext-disp-module-symvers
 LOCAL_ADDITIONAL_DEPENDENCIES := $(call intermediates-dir-for,DLKM,msm-ext-disp-module-symvers)/Module.symvers
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 
 ########################## CS35L41 ################################
@@ -346,7 +346,7 @@ LOCAL_MODULE_KBUILD_NAME  := asoc/codecs/cs35l41/cs35l41_dlkm.ko
 LOCAL_MODULE_TAGS         := optional
 LOCAL_MODULE_DEBUG_ENABLE := true
 LOCAL_MODULE_PATH         := $(KERNEL_MODULES_OUT)
-include $(DLKM_DIR)/Build_external_kernelmodule.mk
+
 ###########################################################
 
 endif # DLKM check
